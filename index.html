@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+
+		<meta charset="UTF-8"></meta>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1"></meta>
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1, user-scalable=1">
+
+		<meta http-equiv="cache-control" content="no-cache"></meta>
+        <meta http-equiv="pragma" content="no-cache"></meta>
+        <meta http-equiv="expires" content="0"></meta>
+
+        <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+		<!-- page css -->
+		<link href="../Resume/css/product.css" rel="stylesheet" />
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<!-- 彈跳視窗 動態計算寬高 -->
+		<script src="../Resume/js/lib/popup.js"></script>
+
+		<script type="text/javascript">
+
+		</script> 
+		<!--[if lt IE 9]>
+		  	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="banner-line">
+			<div class="container">
+				<div class="head-title">
+					<h1>Korea Travel</h1>
+					<p>韓國，好好玩</p>
+				</div>
+			</div>	
+		</div>
+
+		<a class="toTop" href="">TOP</a>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="w3-content w3-section" >
+				  	<img class="mySlides w3-animate-fading" src="../Resume/img/t8.jpg">
+				  	<img class="mySlides w3-animate-fading" src="../Resume/img/t11.jpg">
+				  	<img class="mySlides w3-animate-fading" src="../Resume/img/t12.jpg">
+				  	<img class="mySlides w3-animate-fading" src="../Resume/img/t30.jpg">
+				  	<img class="mySlides w3-animate-fading" src="../Resume/img/t31.jpg">
+				</div>
+			</div>
+		</div> 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<span class="prod-title">
+						<p>釜山必遊景點</p>
+					</span>
+				</div>
+			</div>
+			<div class="prod-line"></div>
+			<!-- 商品 -->
+			<div class="row">
+				<div class="col-md-12 prod-box">
+					<div class="col-xs-12 col-md-5">
+						<div class="prod-area p-left" onclick="cancelType(1)" >
+							<img src="../Resume/img/t20.jpg"/>
+							<div class="prod-cont">
+								<p>甘川洞文化村감천문화마을</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-7">
+						<div class="prod-area p-right" onclick="cancelType(2)">
+							<img src="../Resume/img/t9.jpg"/>
+							<div class="prod-cont">
+								<p>太宗台태종대유원지</p>
+							</div>
+						</div>
+						<div class="prod-area p-right" onclick="cancelType(3)">
+							<img src="../Resume/img/t19.jpg"/>
+							<div class="prod-cont">
+								<p>海雲台해운대</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<span class="prod-title">
+						<p>季節限定景點</p>
+					</span>
+				</div>
+			</div>
+			<div class="prod-line"></div>
+			<div class="row">
+				<div class="col-md-4 fix-style">
+					<div class="circle-box">
+						<img src="../Resume/img/t25.jpg" data-animate="0">
+						<div class="circle-title" data-cname="景福宮">景福宮</div>
+					</div>
+					<div class="circle-area">
+						<div id="c-cont0" class="circle-cont">
+							<span>秋夏-夜遊景福宮</span>
+							<p>
+								韓國必遊景點景福宮，是首爾最具有傳統氣息的景點，除了白天之外，在夏秋季也會不定期開放夜間觀賞景福宮的機會，能在美麗的夜空映襯下欣賞韓國500年的文化遺產，更能感受到韓國傳統文化的浪漫，中秋節慶還會有特別表演活動可以欣賞。</br>
+								現在除了景福宮之外昌慶宮、昌德宮、德壽宮原先都要付費參觀，只要穿上韓服都可以免費入園參觀。想穿越時空當一次韓劇古裝女主角嗎?一定要安排時間體驗一次看看喔!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 fix-style">
+					<div class="circle-box">
+						<img src="../Resume/img/t28.jpg" data-animate="1">
+						<div class="circle-title" data-cname="晨靜樹木園">晨靜樹木園</div>
+					</div>
+					<div class="circle-area">
+						<div id="c-cont1" class="circle-cont">
+							<span>晨靜樹木園五色星光庭園展</span>
+							<p>
+								坐落於京畿道的晨靜樹木園，佔地約10萬餘坪，擁有33萬公尺被美麗花朵覆蓋的大規模庭園，遊客在群花盛開的庭園和蔚然蔥鬱的松樹林間舒服安適地享受大自然山林浴。每到冬季時，會舉行星光庭園展，夜晚共有約300萬個的燈泡同時點亮，在銀色世界的雪地裡配上五彩繽紛的燈光，像是夜晚綻放的花朵，耀眼奪目。這裡更是偶像劇"雲畫的月光"拍攝場景。</br>
+							    想遠離塵囂，沉浸在這夢幻的世界嗎?趕快訂下機票，一睹難得的冬季限定美景吧!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 fix-style">
+					<div class="circle-box">
+						<img src="../Resume/img/t29.jpg" data-animate="2">
+						<div class="circle-title" data-cname="天空公園">天空公園</div>
+					</div>
+					<div class="circle-area">
+						<div id="c-cont2" class="circle-cont">
+							<span>與天空最近的距離-天空公園&nbsp;秋季紫芒節</span>
+							<p>
+								天空公園因為離天空最近而得名，雖過去曾是垃圾掩埋場，但現已被整理為最漂亮的公園。天空公園最著名的就是紫芒節，每年10月舉行，紫芒花盛開，隨風搖曳擺動，夕陽光灑落，一片萬紫千紅，更凸顯著秋天的惆悵與迷濛，彷彿置身在天國之中，愜意而灑脫。秋天不再是楓紅一枝獨秀，白茫茫的一片紫芒花，已悄悄的暈染了秋色。</br>
+								秋季實施夜間開放，讓平時無法盡情接觸大自然的都市人可以徜徉在五光十色的紫芒花海中，感受生活的悠然自在。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- container end -->
+
+		<!-- Modal -->
+		<div class="modal fade" id="prodModal1" tabindex="-1" role="dialog">
+		  	<div class="modal-dialog">
+			    <div class="modal-content">
+			     	<div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="prodModalLabel">甘川洞文化村감천문화마을</h4>
+			      	</div>
+			      	<div class="modal-body">
+			      		<div class="row">
+			      			<div class=" col-md-6">
+			      				<div class="popup-left">
+					      			<img src="../Resume/img/t21.jpg"/>
+					      		</div>
+							</div>
+							<div class=" col-md-6">
+								<div class="popup-right">
+									<span>介紹</span>
+									<p>
+										甘川文化村是位在山腳下，呈階梯式聚集在一起的房子們，以巷弄為中心所形成的美麗村落，甘川文化村的歷史可追溯至50年代的韓戰，為了躲避戰爭而建造的避難所，而後在藝術家與當地居民努力下，將房子漆上色彩而形成了彩色文化村落，深受廣大旅客的青睞。
+						      		</p>
+					      		</div>
+							</div>
+						</div>
+			     	</div></div></div></div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="prodModal2" tabindex="-1" role="dialog">
+		  	<div class="modal-dialog">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        	<span aria-hidden="true">&times;</span>
+				        </button>
+				        <h4 class="modal-title" id="prodModalLabel">太宗台태종대유원지</h4>
+			      	</div>
+				 	<div class="modal-body">
+			      		<div class="row">
+			      			<div class="col-xs-12 col-md-6">
+			      				<div class="popup-left">
+					      			<img src="../Resume/img/t13.jpg"/>
+					      		</div>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<div class="popup-right">
+									<span>介紹</span>
+									<p>
+										太宗臺位於釜山市廳前沿著影島海岸約9.1km處的最南端。面積為54萬2千3百90坪，以海拔250m的最高峰為中心，內有茂密的海松、熱帶性闊葉樹日本桂、楠木、冬柏樹、柃木等200多種樹木。沿著步道行走，可以欣賞壯麗的峭壁與一望無際的海平面。
+									</p>
+					      		</div>
+							</div>
+						</div>
+			     	</div></div></div></div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="prodModal3" tabindex="-1" role="dialog">
+		  	<div class="modal-dialog">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        	<span aria-hidden="true">&times;</span>
+				        </button>
+				        <h4 class="modal-title" id="prodModalLabel">海雲台海水浴場&nbsp;해운대해수욕장</h4>
+			      	</div>
+				    <div class="modal-body">
+			      		<div class="row">
+			      			<div class="col-xs-12 col-md-6">
+			      				<div class="popup-left">
+					      			<img src="../Resume/img/t22.jpg"/>
+					      		</div>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<div class="popup-right">
+									<span>介紹</span>
+									<p>
+										海雲台是釜山最具代表性的海水浴場，只要提到「釜山」就會聯想到的著名景點，海雲台擁有廣闊的沙灘與美麗的海岸線，亦是暑假人潮聚集之處，海岸線附近大大小小建築與高級飯店林立與佈滿整個海灘的遮陽傘，成為海雲台的特殊景觀。
+						      		</p>
+					      		</div>
+							</div>
+						</div>
+			     	</div></div></div></div>
+			    
+
+		<script type="text/javascript">
+
+		$(document).ready(function(){
+
+		 	//變數宣告
+		 	var caroIndex = 0;
+
+		 	// 輪播
+			carousel();
+			function carousel() {
+			    var i;
+			    var x = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < x.length; i++) {
+			       x[i].style.display = "none";  
+			    }
+			    caroIndex++;
+			    if (caroIndex > x.length) {caroIndex = 1}    
+			    x[caroIndex-1].style.display = "block";  
+			    setTimeout(carousel, 5000);    
+			}
+
+			// scroll 最上面
+			$( ".toTop" ).click(function(){
+				$(this).scrollTop(0);
+			});
+
+        	// 方格商品區塊
+		 	// $( ".prod-area" ).children(".prod-cont").css("display", "block");
+			$( ".prod-area" ).mouseover(function() {
+				$(this).addClass("prod-border");
+				$(this).find(".prod-cont").css("display", "block");
+			}).mouseout(function() {
+				$(this).removeClass("prod-border");
+			  	$(this).find(".prod-cont").css("display", "none");
+			});
+
+			// 圓圈商品區塊
+			var cirKName = ["경복궁","아침고요수목원","하늘공원"];
+			var cirCount,cirName;
+			
+			$(".circle-box").children("img").click(function(){
+			  	cirCount = $(this).data("animate");
+			  	$("#c-cont"+cirCount).slideToggle("slow");
+			});
+			$(".circle-box").children("img").mouseover(function(){
+				cirCount = $(this).data("animate");
+			    $(this).next().text(cirKName[cirCount]).css("color","#FF0088");
+			}).mouseout(function() {
+				cirName = $(this).next().data("cname");
+				$(this).next().text(cirName).css("color","#000000");		
+			});
+			
+	 });
+
+
+		</script>
+	</body>
+	<footer>
+		<div class="banner-line">
+			<div class="container">
+				<div class="footer-title">
+					<h5>by Ruby Lin</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+</html>

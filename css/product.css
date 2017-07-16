@@ -1,0 +1,263 @@
+
+a, a:focus, a:hover{
+  text-decoration: none;
+}
+
+.banner-line{
+  background-color: rgba(255, 138, 194,.1);
+  width: 100%;
+  height: 110px;
+}
+
+.head-title h1{
+  margin: 10px 0;
+  text-shadow:3px 3px 3px #cccccc;
+  background-image: url(../img/girl-korean.png),url(../img/boy-korean.png);
+  background-repeat: no-repeat,no-repeat;
+  background-position: 200px 5px,219px 4px;
+  width: 250px;
+}
+
+.head-title p {
+  background-image: url(../img/south-korea.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  padding-left: 30px;
+}
+
+.footer-title {
+  margin-top: 80px;
+}
+
+.toTop {
+  background-color: #FF0088;
+  background-image: url(../img/upload.png);
+  background-repeat: no-repeat;
+  background-position: 50% 5px; 
+  color: white;
+  text-align: center;
+  line-height: 65px;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  z-index: 2000;
+}
+
+.toTop:hover,.toTop:focus{
+   color: white;
+   background-color: #FFB7DD;
+
+}
+
+/*輪播區塊*/
+.mySlides {display:none;}
+
+.w3-section {
+  max-width: 100% !important;
+  margin-top: 0px !important;
+}
+
+.w3-section img{
+  width: 100%;
+  height: 600px;
+}
+
+/* 商品區塊*/
+.prod-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF0088;
+}
+.prod-title p{
+  margin: 0 0 5px 0;
+  background-image: url(../img/nature.png);
+  background-repeat: no-repeat;
+  background-position: 0px 8px;
+  padding-left: 27px;
+}
+
+.prod-line {
+  width: 100%;
+  border-bottom: 2px solid #FFB7DD;
+  height: 0px;
+}
+
+.prod-box{
+	margin: 10px 0 50px 0;
+	padding: 0;
+}
+
+.prod-area{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer; 
+	margin: 0 0 10px 0;
+  box-shadow: 5px 4px 7px #888888;
+}
+
+.prod-border{
+  border: 3px solid #FF44AA;
+}
+
+.prod-cont{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:50px;
+	background: rgba(255,255,255,.6);
+	display: none;
+}
+
+.prod-cont p {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.p-left{
+  width: 100%;
+  height:560px;
+}
+
+.p-left img{
+  width: 100%;
+  height: 560px;
+}
+
+.p-right{
+	margin:0 0 10px 0;
+  width: 100%;
+  height: 275px;
+}
+.p-right img{
+  width: 100%;
+  height: 275px;
+}
+
+/* 圓圈版型商品 */
+.fix-style{
+  margin-bottom: 30px;
+  padding:0px;
+}
+
+.circle-box{
+  width: 100%;
+  height: 305px;
+  margin: 30px 0 0 0;
+}
+
+.circle-box img{
+  border-radius: 100%;
+  width: 260px;
+  height:260px;
+  cursor: pointer;
+/*  margin-left: 50px;*/
+    display: block;
+    margin: auto;
+  box-shadow: 5px 4px 7px #888888;
+}
+
+.circle-box img:hover{
+  border: 10px solid pink;
+}
+
+.circle-title{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.circle-area{
+  border-bottom: 2px solid pink;
+  border: 2px solid pink;
+}
+
+.circle-area:after{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5.5px 0;
+  border-color: pink transparent transparent;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.circle-cont{
+  display: none;
+  margin: 10px;
+}
+
+.circle-cont span{
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+}
+
+/*--popup 區塊-*/
+.modal-open .modal {
+    overflow-y: hidden;
+}
+.popup-left img {
+  width:100%;
+  height:auto;
+}
+
+.popup-right span{
+  font-size: 16px;
+  font-weight: bold;
+  color: orange;
+}
+
+.popup-right p{
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.modal-dialog {
+  width: 700px;
+  margin: 30px auto;
+}
+
+/*footer{
+  border-top: 1px solid pink;
+  background-color: #FF88C2;
+  opacity: 0.1;
+  width: 100%;
+  height: 150px;
+}
+*/
+
+@media (max-width: 992px){
+
+  .modal-body{
+    overflow-y: auto;
+    max-height: 400px;
+  }
+
+  .w3-section img{
+    height: 400px;
+  }
+
+  .p-left{
+    width: 100%;
+    height:275px;
+  }
+
+  .modal-dialog {
+    width: 100%;
+  }
+
+  .popup-right{
+    margin: 10px 0;
+  }
+
+
+}
+
